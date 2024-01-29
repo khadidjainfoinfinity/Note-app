@@ -1,0 +1,45 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0;
+    background: #ffd0ec;
+  }
+  
+  #app {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    padding: 30px;
+    gap: 30px;
+  }
+  
+  .note {
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border: 2px solid #fff4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    resize: none;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+  
+  .add-note {
+    height: 200px;
+    border: 3px solid #b77ea0;
+    outline: none;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 100px;
+    color: #925c7c;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .add-note:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  
